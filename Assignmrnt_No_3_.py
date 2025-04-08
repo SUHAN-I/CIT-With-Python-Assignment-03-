@@ -1,4 +1,4 @@
-
+"""
 Q# 01 Write a program that calculates the sum, difference, product, and average of three numbers
 """
 
