@@ -20,52 +20,38 @@ print(a+b+c/3)
 *   Area=length×width
 """
 
-import math
+base = 2
+height = 6
+side = 5
+radius = 2
+length = 3
+width = 6
 
-# Area Of Triangle
-def area_of_triangle(base=2, height=6):
-    return 0.5 * base * height
+print("Area of Triangle:")
+print(0.5 * base * height)
 
-print("area_of_triangle:")
-print(area_of_triangle())
+print("Area of Squre:")
+print(side * side)
 
-# Area Of Squre
-def area_of_square(side=5):
-    return side * side
+print("Area of Circle")
+print(3.14 * radius * radius)
 
-print("area_of_square:")
-print(area_of_square())
-
-# Area Of Circle:
-def area_of_circle(radius=2):
-    return math.pi * radius **2
-
-print("area_of_circle:")
-print(area_of_circle())
-
-# Area Of Rectangle
-def area_of_rectangle(length=3, width=6):
-    return length * width
-
-print("area_of_rectangle:")
-print(area_of_rectangle())
-
-
+print("Area of Rectangle")
+print(length * width)
 
 
 """Q# 03 Write a program to swap values of two variables"""
 
-# define variables
 a = 5
 b = 10
 
-print("Before swapping:")
 print("a =", a)
 print("b =", b)
 
-# Swap the values
-a, b = b, a
+print("Swapping Values:")
 
-print("After swapping:")
+a = b  
+b = 5
+
 print("a =", a)
 print("b =", b)
